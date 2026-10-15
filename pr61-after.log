@@ -1,0 +1,21 @@
+{
+  "locale": "tr_TR.UTF-8",
+  "labels": [
+    "Keşfet",
+    "Tümü",
+    "Pardus Uygulamaları",
+    "Araçlar",
+    "Eğitim",
+    "Geliştirme",
+    "Grafik",
+    "İnternet",
+    "Kurumsal",
+    "Multimedya",
+    "Ofis",
+    "Oyunlar",
+    "Sistem"
+  ],
+  "all": "Tümü",
+  "internet": "İnternet",
+  "passed": true
+}

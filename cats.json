@@ -1,0 +1,98 @@
+{
+ "categories": [
+  {
+   "en": "development",
+   "tr": "geliştirme",
+   "subcategories": [],
+   "icon": null,
+   "number": null
+  },
+  {
+   "en": "education",
+   "tr": "eğitim",
+   "subcategories": [],
+   "icon": null,
+   "number": null
+  },
+  {
+   "en": "games",
+   "tr": "oyunlar",
+   "subcategories": [],
+   "icon": null,
+   "number": null
+  },
+  {
+   "en": "graphics",
+   "tr": "grafik",
+   "subcategories": [],
+   "icon": null,
+   "number": null
+  },
+  {
+   "en": "internet",
+   "tr": "internet",
+   "subcategories": [
+    {
+     "en": "Web Browser",
+     "tr": "İnternet Tarayıcı"
+    },
+    {
+     "en": "Chat Application",
+     "tr": "Konuşma Uygulaması"
+    },
+    {
+     "en": "E-Mail Client",
+     "tr": "E-Posta İstemcisi"
+    },
+    {
+     "en": "File Sharing",
+     "tr": "Dosya Paylaşımı"
+    }
+   ],
+   "icon": null,
+   "number": null
+  },
+  {
+   "en": "multimedia",
+   "tr": "multimedya",
+   "subcategories": [],
+   "icon": null,
+   "number": null
+  },
+  {
+   "en": "office",
+   "tr": "ofis",
+   "subcategories": [],
+   "icon": null,
+   "number": null
+  },
+  {
+   "en": "system",
+   "tr": "sistem",
+   "subcategories": [],
+   "icon": null,
+   "number": null
+  },
+  {
+   "en": "utilities",
+   "tr": "araçlar",
+   "subcategories": [],
+   "icon": null,
+   "number": null
+  },
+  {
+   "en": "pardus apps",
+   "tr": "pardus uygulamaları",
+   "subcategories": [],
+   "icon": "pardus",
+   "number": 1
+  },
+  {
+   "en": "enterprise",
+   "tr": "kurumsal",
+   "subcategories": [],
+   "icon": null,
+   "number": null
+  }
+ ]
+}

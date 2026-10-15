@@ -1,0 +1,3 @@
+Package: pardus-software
+Version: 0.8.3
+e9a2774d0b1391433b51239cdfc00ce7a123f165b13d08b42cd2b29d55a6a039  /home/pardus/lab-20261015/pardus-software_0.8.3_all.deb

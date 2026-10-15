@@ -1,0 +1,41 @@
+From 0cec5a0f5ea045e81b381d62e36293f22e993ca3 Mon Sep 17 00:00:00 2001
+From: muhammetali <gmuhammetali@gmail.com>
+Date: Thu, 15 Oct 2026 17:10:17 +0300
+Subject: [PATCH] =?UTF-8?q?T=C3=BCm=C3=BC=20kategori=20=C3=A7evirisini=20y?=
+ =?UTF-8?q?eniden=20etkinle=C5=9Ftirdim?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ po/tr.po | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/po/tr.po b/po/tr.po
+index 25da62c..a86ab95 100644
+--- a/po/tr.po
++++ b/po/tr.po
+@@ -1249,9 +1249,6 @@ msgstr "<span size='large'><b>Son Eklenen Uygulamalar</b></span>"
+ #~ msgid "Getting icons from server"
+ #~ msgstr "Sunucudan ikonlar alınıyor"
+ 
+-#~ msgid "All"
+-#~ msgstr "Tümü"
+-
+ # 'View on' apps.pardus.org.tr.
+ #~ msgid "View on {}."
+ #~ msgstr "{} ' de görüntüle."
+@@ -1615,6 +1612,10 @@ msgstr "<span size='large'><b>Son Eklenen Uygulamalar</b></span>"
+ #~ msgid "Preferences"
+ #~ msgstr "Ayarlar"
+ 
++#: src/MainWindow.py:1326
++msgid "All"
++msgstr "Tümü"
++
+ #: src/MainWindow.py:1324
+ msgid "Development"
+ msgstr "Geliştirme"
+-- 
+2.43.0
+
