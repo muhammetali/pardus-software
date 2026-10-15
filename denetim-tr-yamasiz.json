@@ -1,0 +1,17 @@
+{
+  "mode": "baseline",
+  "steps": [
+    {
+      "step": "startup",
+      "seconds": 9.79,
+      "connected": false,
+      "home": "noserver",
+      "page": "discover",
+      "installed_count": 93,
+      "search_sensitive": false,
+      "broken": false
+    }
+  ],
+  "status": "passed",
+  "error": null
+}

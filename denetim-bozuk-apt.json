@@ -1,0 +1,24 @@
+{
+  "mode": "broken",
+  "steps": [
+    {
+      "step": "startup",
+      "seconds": 9.91,
+      "connected": false,
+      "home": "noserver",
+      "page": "discover",
+      "installed_count": 93,
+      "search_sensitive": false,
+      "broken": true
+    },
+    {
+      "step": "broken",
+      "seconds": 9.99,
+      "button_sensitive": false,
+      "myapps_permission": 1,
+      "broken_count": 1
+    }
+  ],
+  "status": "passed",
+  "error": null
+}

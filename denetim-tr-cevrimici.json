@@ -1,0 +1,64 @@
+{
+  "mode": "online",
+  "steps": [
+    {
+      "step": "startup",
+      "seconds": 22.47,
+      "connected": true,
+      "home": "pardushome",
+      "page": "discover",
+      "installed_count": 93,
+      "search_sensitive": true,
+      "broken": false
+    },
+    {
+      "step": "installed",
+      "seconds": 23.81,
+      "count": 93,
+      "back_sensitive": true
+    },
+    {
+      "step": "settings",
+      "seconds": 25.12,
+      "page": "settings",
+      "search_sensitive": true
+    },
+    {
+      "step": "settings_back",
+      "seconds": 26.38,
+      "page": "installed"
+    },
+    {
+      "step": "search",
+      "seconds": 27.63,
+      "query": "mousepad",
+      "visible": 2,
+      "total": 93
+    },
+    {
+      "step": "details",
+      "seconds": 30.81,
+      "page": "appdetails",
+      "search_sensitive": true
+    },
+    {
+      "step": "details_back",
+      "seconds": 31.93,
+      "page": "installed"
+    },
+    {
+      "step": "launch",
+      "seconds": 33.49,
+      "application": "mousepad",
+      "running": true
+    },
+    {
+      "step": "back",
+      "seconds": 35.26,
+      "home": "pardushome",
+      "search_sensitive": true
+    }
+  ],
+  "status": "passed",
+  "error": null
+}

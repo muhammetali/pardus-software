@@ -1,0 +1,13 @@
+4c1df313b0e67f15e323f7b1b65ed73749e82859dd1c0a1b14ed256a9d855c0b  /home/pardus/lab-20261015/pardus-software_1.0.6_all.deb
+268fb132577ddb21a724226cdc4b50b8db140d5f2111c4b4cdd321b9a8274805  /home/pardus/lab-20261015/built-deb/usr/share/pardus/pardus-software/src/MainWindow.py
+9d9a12194daa92bd371c9aa95bc49553cb44402965f0214a5f06980ec2e45168  /home/pardus/lab-20261015/built-deb/usr/share/pardus/pardus-software/ui/MainWindow.glade
+Package: pardus-software
+Version: 1.0.6
+Architecture: all
+drwxr-xr-x root/root         0 2026-09-30 21:21 ./usr/share/pardus/pardus-software/ui/
+-rw-r--r-- root/root    590706 2026-09-30 21:21 ./usr/share/pardus/pardus-software/ui/MainWindow.glade
+drwxr-xr-x root/root         0 2026-09-30 21:21 ./usr/share/polkit-1/
+drwxr-xr-x root/root         0 2026-09-30 21:21 ./usr/share/polkit-1/actions/
+-rwxr-xr-x root/root      3207 2026-09-09 16:20 ./usr/share/polkit-1/actions/tr.org.pardus.pkexec.pardus-software.policy
+drwxr-xr-x root/root         0 2026-09-30 21:21 ./usr/share/polkit-1/rules.d/
+-rw-r--r-- root/root       223 2026-09-09 16:20 ./usr/share/polkit-1/rules.d/pardus-software-group.rules
