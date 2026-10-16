@@ -1,0 +1,86 @@
+[
+  {
+    "case": "old_directory",
+    "legacy_relative_path": "config/pardus-software/settings.ini",
+    "legacy_config": "[DEFAULT]\nuseservericons = True\nanimations = False\nshowavailableapps = False\nhideexternalrepoapps = True\niconname = default\nshowgnomecomments = False\nusedarktheme = True\nautoaptupdate = False\nlastautoaptupdate = 1700000000\nforceautoaptupdatetime = 86400\n\n",
+    "expected": {
+      "animations": false,
+      "only_available": false,
+      "gnome_comments": false,
+      "dark_theme": true,
+      "auto_apt_update": false,
+      "last_update": 1700000000,
+      "force_update_time": 86400
+    },
+    "actual": {
+      "animations": false,
+      "only_available": false,
+      "gnome_comments": false,
+      "dark_theme": true,
+      "auto_apt_update": false,
+      "last_update": 1700000000,
+      "force_update_time": 86400
+    },
+    "file_changed": true,
+    "sections": [
+      "MAIN"
+    ],
+    "passed": true
+  },
+  {
+    "case": "new_directory",
+    "legacy_relative_path": "config/pardus/pardus-software/settings.ini",
+    "legacy_config": "[DEFAULT]\nuseservericons = True\nanimations = False\nshowavailableapps = False\nhideexternalrepoapps = True\niconname = default\nshowgnomecomments = False\nusedarktheme = True\nautoaptupdate = False\nlastautoaptupdate = 1700000000\nforceautoaptupdatetime = 86400\n\n",
+    "expected": {
+      "animations": false,
+      "only_available": false,
+      "gnome_comments": false,
+      "dark_theme": true,
+      "auto_apt_update": false,
+      "last_update": 1700000000,
+      "force_update_time": 86400
+    },
+    "actual": {
+      "animations": false,
+      "only_available": false,
+      "gnome_comments": false,
+      "dark_theme": true,
+      "auto_apt_update": false,
+      "last_update": 1700000000,
+      "force_update_time": 86400
+    },
+    "file_changed": true,
+    "sections": [
+      "MAIN"
+    ],
+    "passed": true
+  },
+  {
+    "case": "existing_main",
+    "legacy_relative_path": "config/pardus-software/settings.ini",
+    "legacy_config": "[DEFAULT]\nuseservericons = True\nanimations = False\nshowavailableapps = False\nhideexternalrepoapps = True\niconname = default\nshowgnomecomments = False\nusedarktheme = True\nautoaptupdate = False\nlastautoaptupdate = 1700000000\nforceautoaptupdatetime = 86400\n\n",
+    "expected": {
+      "animations": true,
+      "only_available": true,
+      "gnome_comments": true,
+      "dark_theme": false,
+      "auto_apt_update": false,
+      "last_update": 1800000000,
+      "force_update_time": 43200
+    },
+    "actual": {
+      "animations": true,
+      "only_available": true,
+      "gnome_comments": true,
+      "dark_theme": false,
+      "auto_apt_update": false,
+      "last_update": 1800000000,
+      "force_update_time": 43200
+    },
+    "file_changed": false,
+    "sections": [
+      "MAIN"
+    ],
+    "passed": true
+  }
+]

@@ -1,5 +1,23 @@
 # PR #61 ve #62 inceleme ölçümleri
 
+## 16 Ekim 2026 — güncellenen dalların doğrulanması
+
+Pardus 25.2 XFCE VM'de aynı betikler güncel PR başlarında tekrar çalıştırıldı.
+PR #61 `69953ca958e7fd49c3e271a56e6c98dd4d854d4d` üzerinde Türkçe kategori
+`Tümü`, internet kategorisi `İnternet`; sonuç başarılı.
+[Ölçüm](followup-20261016/pr61-result.json) ·
+[Gerçek kategori widget'larının görüntüsü](followup-20261016/pr61-categories.png).
+Bu görüntü test penceresidir, uygulamanın tamamı değildir.
+
+PR #62 `ade65a9b572b67a91d0694c681dfe32b9be8596d` üzerinde eski dizindeki
+`[DEFAULT]`, yeni dizindeki `[DEFAULT]` ve mevcut `[MAIN]` olmak üzere üç senaryo
+da geçti. İki taşıma durumunda 7 tercih korunuyor; mevcut `[MAIN]` dosyası
+bayt düzeyinde değişmiyor. [Tam ölçüm](followup-20261016/pr62-migration.json).
+Bu sonuç önceki incelemede bildirilen üç senaryoyu doğrular; PR'ın bütün
+davranışlarına verilmiş genel onay değildir. Kullanıcı ayarları değiştirilmedi.
+
+## 15 Ekim 2026 — ilk inceleme
+
 15 Ekim 2026, Pardus 25.2 XFCE sanal makinesi.
 İncelenen commit'ler: #61 `8583901a5124621d5f96caca5c9240770b5e6d39`,
 #62 `fa949dc34cf746ee4af3bf2db2b3de89bc8d53f1`.
