@@ -1,0 +1,68 @@
+{
+  "mode": "online",
+  "remove_fixture": false,
+  "steps": [
+    {
+      "step": "startup",
+      "seconds": 21.26,
+      "connected": true,
+      "home": "pardushome",
+      "page": "discover",
+      "installed_count": 89,
+      "search_sensitive": true,
+      "broken": false
+    },
+    {
+      "step": "installed",
+      "seconds": 22.55,
+      "count": 89,
+      "back_sensitive": true
+    },
+    {
+      "step": "settings",
+      "seconds": 23.93,
+      "page": "settings",
+      "search_sensitive": true
+    },
+    {
+      "step": "settings_back",
+      "seconds": 25.24,
+      "page": "installed"
+    },
+    {
+      "step": "search",
+      "seconds": 26.26,
+      "query": "mousepad",
+      "visible": 2,
+      "total": 89
+    },
+    {
+      "step": "details",
+      "seconds": 30.9,
+      "page": "appdetails",
+      "search_sensitive": true
+    },
+    {
+      "step": "details_back",
+      "seconds": 32.18,
+      "page": "installed"
+    },
+    {
+      "step": "launch",
+      "seconds": 33.55,
+      "application": "mousepad",
+      "running": true
+    },
+    {
+      "step": "back",
+      "seconds": 35.27,
+      "home": "pardushome",
+      "search_sensitive": true
+    }
+  ],
+  "desktop": "XFCE",
+  "session_type": "x11",
+  "os_release": "PRETTY_NAME=\"Pardus GNU/Linux 23 (yirmiuc)\"\nNAME=\"Pardus GNU/Linux\"\nVERSION_ID=\"23.5\"\nVERSION=\"23.5 (yirmiuc)\"\nVERSION_CODENAME=yirmiuc\nID=pardus\nHOME_URL=\"https://www.pardus.org.tr/\"\nSUPPORT_URL=\"https://forum.pardus.org.tr/\"\nBUG_REPORT_URL=\"https://talep.pardus.org.tr/\"\nID_LIKE=debian\nPARDUS_CODENAME=yirmiuc\n",
+  "status": "passed",
+  "error": null
+}

@@ -1,0 +1,115 @@
+Warning: Permanently added '192.168.122.154' (ED25519) to the list of known hosts.
+test_delayed_search_after_back_does_not_open_catalog (__main__.OfflineNavigationTests.test_delayed_search_after_back_does_not_open_catalog) ... FAIL
+test_offline_button_opens_an_empty_installed_list (__main__.OfflineNavigationTests.test_offline_button_opens_an_empty_installed_list) ... FAIL
+test_offline_button_respects_permission_and_apt_health (__main__.OfflineNavigationTests.test_offline_button_respects_permission_and_apt_health) ... 
+  test_offline_button_respects_permission_and_apt_health (__main__.OfflineNavigationTests.test_offline_button_respects_permission_and_apt_health) (permission=0, broken=False) ... FAIL
+  test_offline_button_respects_permission_and_apt_health (__main__.OfflineNavigationTests.test_offline_button_respects_permission_and_apt_health) (permission=1, broken=True) ... FAIL
+  test_offline_button_respects_permission_and_apt_health (__main__.OfflineNavigationTests.test_offline_button_respects_permission_and_apt_health) (permission=0, broken=True) ... FAIL
+  test_offline_button_respects_permission_and_apt_health (__main__.OfflineNavigationTests.test_offline_button_respects_permission_and_apt_health) (permission=1, broken=False) ... FAIL
+test_offline_details_back_restores_installed_search (__main__.OfflineNavigationTests.test_offline_details_back_restores_installed_search) ... FAIL
+test_offline_hides_unavailable_catalog_controls (__main__.OfflineNavigationTests.test_offline_hides_unavailable_catalog_controls) ... FAIL
+test_offline_search_filters_local_rows (__main__.OfflineNavigationTests.test_offline_search_filters_local_rows) ... FAIL
+test_offline_settings_back_returns_to_connection_error (__main__.OfflineNavigationTests.test_offline_settings_back_returns_to_connection_error) ... FAIL
+test_online_broken_apt_still_shows_repair_page (__main__.OfflineNavigationTests.test_online_broken_apt_still_shows_repair_page) ... ok
+test_online_navigation_keeps_catalog_search_available (__main__.OfflineNavigationTests.test_online_navigation_keeps_catalog_search_available) ... ok
+test_online_result_restores_home_after_failure (__main__.OfflineNavigationTests.test_online_result_restores_home_after_failure) ... ok
+
+======================================================================
+FAIL: test_delayed_search_after_back_does_not_open_catalog (__main__.OfflineNavigationTests.test_delayed_search_after_back_does_not_open_catalog)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 130, in test_delayed_search_after_back_does_not_open_catalog
+    self.assert_page("discover", "noserver", False)
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 66, in assert_page
+    self.assertEqual(window.ui_right_stack.get_visible_child_name(), page)
+AssertionError: 'apps' != 'discover'
+- apps
++ discover
+
+
+======================================================================
+FAIL: test_offline_button_opens_an_empty_installed_list (__main__.OfflineNavigationTests.test_offline_button_opens_an_empty_installed_list)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 73, in test_offline_button_opens_an_empty_installed_list
+    self.assertIsNotNone(button)
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_offline_button_respects_permission_and_apt_health (__main__.OfflineNavigationTests.test_offline_button_respects_permission_and_apt_health) (permission=0, broken=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 89, in test_offline_button_respects_permission_and_apt_health
+    self.assertIsNotNone(button)
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_offline_button_respects_permission_and_apt_health (__main__.OfflineNavigationTests.test_offline_button_respects_permission_and_apt_health) (permission=1, broken=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 89, in test_offline_button_respects_permission_and_apt_health
+    self.assertIsNotNone(button)
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_offline_button_respects_permission_and_apt_health (__main__.OfflineNavigationTests.test_offline_button_respects_permission_and_apt_health) (permission=0, broken=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 89, in test_offline_button_respects_permission_and_apt_health
+    self.assertIsNotNone(button)
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_offline_button_respects_permission_and_apt_health (__main__.OfflineNavigationTests.test_offline_button_respects_permission_and_apt_health) (permission=1, broken=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 89, in test_offline_button_respects_permission_and_apt_health
+    self.assertIsNotNone(button)
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_offline_details_back_restores_installed_search (__main__.OfflineNavigationTests.test_offline_details_back_restores_installed_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 115, in test_offline_details_back_restores_installed_search
+    self.assert_page("appdetails", "pardushome", False)
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 67, in assert_page
+    self.assertEqual(window.homestack.get_visible_child_name(), home)
+AssertionError: 'noserver' != 'pardushome'
+- noserver
++ pardushome
+
+
+======================================================================
+FAIL: test_offline_hides_unavailable_catalog_controls (__main__.OfflineNavigationTests.test_offline_hides_unavailable_catalog_controls)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 144, in test_offline_hides_unavailable_catalog_controls
+    self.assertFalse(self.window.ui_leftcats_box.get_visible())
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_offline_search_filters_local_rows (__main__.OfflineNavigationTests.test_offline_search_filters_local_rows)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 103, in test_offline_search_filters_local_rows
+    self.assertTrue(window.ui_top_searchentry.get_sensitive())
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_offline_settings_back_returns_to_connection_error (__main__.OfflineNavigationTests.test_offline_settings_back_returns_to_connection_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 136, in test_offline_settings_back_returns_to_connection_error
+    self.assert_page("settings", "pardushome", False)
+  File "/home/pardus/software-ready/base/tests/offline_navigation.py", line 67, in assert_page
+    self.assertEqual(window.homestack.get_visible_child_name(), home)
+AssertionError: 'noserver' != 'pardushome'
+- noserver
++ pardushome
+
+
+----------------------------------------------------------------------
+Ran 10 tests in 5.373s
+
+FAILED (failures=10)

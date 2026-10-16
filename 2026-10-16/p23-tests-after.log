@@ -1,0 +1,16 @@
+Warning: Permanently added '192.168.122.154' (ED25519) to the list of known hosts.
+test_delayed_search_after_back_does_not_open_catalog (__main__.OfflineNavigationTests.test_delayed_search_after_back_does_not_open_catalog) ... ok
+test_offline_button_opens_an_empty_installed_list (__main__.OfflineNavigationTests.test_offline_button_opens_an_empty_installed_list) ... ok
+test_offline_button_respects_permission_and_apt_health (__main__.OfflineNavigationTests.test_offline_button_respects_permission_and_apt_health) ... ok
+test_offline_details_back_restores_installed_search (__main__.OfflineNavigationTests.test_offline_details_back_restores_installed_search) ... ok
+test_offline_hides_unavailable_catalog_controls (__main__.OfflineNavigationTests.test_offline_hides_unavailable_catalog_controls) ... ok
+test_offline_search_filters_local_rows (__main__.OfflineNavigationTests.test_offline_search_filters_local_rows) ... ok
+test_offline_settings_back_returns_to_connection_error (__main__.OfflineNavigationTests.test_offline_settings_back_returns_to_connection_error) ... ok
+test_online_broken_apt_still_shows_repair_page (__main__.OfflineNavigationTests.test_online_broken_apt_still_shows_repair_page) ... ok
+test_online_navigation_keeps_catalog_search_available (__main__.OfflineNavigationTests.test_online_navigation_keeps_catalog_search_available) ... ok
+test_online_result_restores_home_after_failure (__main__.OfflineNavigationTests.test_online_result_restores_home_after_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 5.331s
+
+OK

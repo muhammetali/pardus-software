@@ -1,0 +1,17 @@
+Warning: Permanently added '192.168.122.154' (ED25519) to the list of known hosts.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+{
+  "hostname": "pardus-software23-lab",
+  "official_software_version": "1.0.6",
+  "official_file_hashes": {
+    "src/MainWindow.py": "d03094a237c73457f072512b924469e1adac584f580123d347986b86300a334c",
+    "ui/MainWindow.glade": "be81725f67d504f550131e190fe34d3d81f92f86130525c60f3383ac44891230"
+  },
+  "dpkg_verify": "clean",
+  "dpkg_audit": "clean",
+  "broken_count": 0,
+  "fixture_absent": true,
+  "network_rule_absent": true
+}

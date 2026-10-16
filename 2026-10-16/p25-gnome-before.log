@@ -1,0 +1,67 @@
+Warning: Permanently added '192.168.122.161' (ED25519) to the list of known hosts.
+{
+  "DISPLAY": ":0",
+  "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+  "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+  "XDG_CURRENT_DESKTOP": "GNOME",
+  "XDG_SESSION_TYPE": "x11",
+  "DESKTOP_SESSION": "gnome-xorg",
+  "XDG_RUNTIME_DIR": "/run/user/1000"
+}
+[2026-10-16 17:22:12] [MainWindow] [INFO] Logger setup completed.
+[2026-10-16 17:22:12] [MainWindow] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:22:13] [MainWindow] [INFO] user_locale: tr
+[2026-10-16 17:22:13] [MainWindow] [INFO] monitor from get_primary_monitor
+[2026-10-16 17:22:13] [MainWindow] [INFO] window w:1028 h:661 | monitor w:1280 h:800 s:1
+[2026-10-16 17:22:13] [MainWindow] [INFO] decoration_layout: icon:minimize,maximize,close
+[2026-10-16 17:22:13] [MainWindow] [INFO] new_decoration_layout: :minimize,maximize,close
+[2026-10-16 17:22:13] [MainWindow] [INFO] theme_name: pardus-xfce
+[2026-10-16 17:22:13] [AppImage] [INFO] Logger setup completed.
+[2026-10-16 17:22:13] [AppImage] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:22:13] [AppDetail] [INFO] Logger setup completed.
+[2026-10-16 17:22:13] [AppDetail] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:22:13] [AppRequest] [INFO] Logger setup completed.
+[2026-10-16 17:22:13] [AppRequest] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:22:13] [GnomeComment] [INFO] Logger setup completed.
+[2026-10-16 17:22:13] [GnomeComment] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:22:13] [PardusComment] [INFO] Logger setup completed.
+[2026-10-16 17:22:13] [PardusComment] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:22:13] [Utils] [INFO] Logger setup completed.
+[2026-10-16 17:22:13] [Utils] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:22:13] [UserSettings] [INFO] Logger setup completed.
+[2026-10-16 17:22:13] [UserSettings] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:22:13] [UserSettings] [INFO] in readconfig
+[2026-10-16 17:22:13] [MainWindow] [INFO] config_animations: True
+[2026-10-16 17:22:13] [MainWindow] [INFO] config_only_available: True
+[2026-10-16 17:22:13] [MainWindow] [INFO] config_gnome_comments: True
+[2026-10-16 17:22:13] [MainWindow] [INFO] config_dark_theme: False
+[2026-10-16 17:22:13] [MainWindow] [INFO] config_auto_apt_update: True
+[2026-10-16 17:22:13] [MainWindow] [INFO] config_last_apt_update: 0
+[2026-10-16 17:22:13] [MainWindow] [INFO] config_force_apt_update_time: 0
+[2026-10-16 17:22:13] [MainWindow] [INFO] Pardus GNU/Linux, 25.2, yirmibes, (GNOME 48.7, X11)
+[2026-10-16 17:22:13] [MainWindow] [INFO] start done
+[2026-10-16 17:22:13] [Package] [INFO] Logger setup completed.
+[2026-10-16 17:22:13] [Package] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:22:25] [MainWindow] [INFO] package completed
+[2026-10-16 17:22:25] [Server] [INFO] Logger setup completed.
+[2026-10-16 17:22:25] [Server] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:22:25] [MainWindow] [INFO] server url getted from new type config
+[2026-10-16 17:22:25] [MainWindow] [INFO] server url: https://apps.pardus.org.tr
+[2026-10-16 17:22:25] [MainWindow] [INFO] repo permission: 1
+[2026-10-16 17:22:25] [MainWindow] [INFO] myapps permission: 1
+[2026-10-16 17:22:25] [MainWindow] [INFO] Controlling server hashes
+[2026-10-16 17:22:25] [MainWindow] [INFO] server func done
+[2026-10-16 17:22:25] [Server] [WARNING] _open_hashes_stream Error: g-io-error-quark, apps.pardus.org.tr bağlantısı gerçekleştirilemedi:  Bağlantı reddedildi
+[2026-10-16 17:22:25] [Server] [ERROR] g-io-error-quark: apps.pardus.org.tr bağlantısı gerçekleştirilemedi:  Bağlantı reddedildi (39)
+Traceback (most recent call last):
+  File "/usr/share/pardus/pardus-software/src/Server.py", line 93, in _open_hashes_stream
+    success, data, etag = file.load_contents_finish(result)
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: apps.pardus.org.tr bağlantısı gerçekleştirilemedi:  Bağlantı reddedildi (39)
+[2026-10-16 17:22:25] [MainWindow] [INFO] ServerHashesCB : False
+[2026-10-16 17:22:25] [MainWindow] [INFO] in set_initial_home
+[2026-10-16 17:22:25] [MainWindow] [INFO] set_initial_home done.
+[2026-10-16 17:22:25] [MainWindow] [INFO] in set_applications
+[2026-10-16 17:22:25] [MainWindow] [INFO] set_applications done
+[2026-10-16 17:22:26] [MainWindow] [INFO] on_myapps_worker_done
+EVIDENCE {"step": "startup", "seconds": 16.4, "connected": false, "home": "noserver", "page": "discover", "installed_count": 99, "search_sensitive": false, "broken": false}

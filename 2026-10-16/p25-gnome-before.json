@@ -1,0 +1,21 @@
+{
+  "mode": "baseline",
+  "remove_fixture": false,
+  "steps": [
+    {
+      "step": "startup",
+      "seconds": 16.4,
+      "connected": false,
+      "home": "noserver",
+      "page": "discover",
+      "installed_count": 99,
+      "search_sensitive": false,
+      "broken": false
+    }
+  ],
+  "desktop": "GNOME",
+  "session_type": "x11",
+  "os_release": "PRETTY_NAME=\"Pardus GNU/Linux 25 (yirmibes)\"\nNAME=\"Pardus GNU/Linux\"\nVERSION_ID=\"25.2\"\nVERSION=\"25.2 (yirmibes)\"\nVERSION_CODENAME=yirmibes\nDEBIAN_VERSION_FULL=13.7\nID=pardus\nHOME_URL=\"https://www.pardus.org.tr/\"\nSUPPORT_URL=\"https://forum.pardus.org.tr/\"\nBUG_REPORT_URL=\"https://talep.pardus.org.tr/\"\nID_LIKE=debian\nPARDUS_CODENAME=yirmibes\n",
+  "status": "passed",
+  "error": null
+}

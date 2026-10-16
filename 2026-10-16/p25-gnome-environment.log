@@ -1,0 +1,20 @@
+5281 /usr/bin/gnome-shell
+SESSION  UID USER   SEAT  LEADER CLASS   TTY  IDLE SINCE
+      2 1000 pardus -     1167   manager -    no   -
+     23 1000 pardus seat0 5110   user    tty2 no   -
+     25 1000 pardus -     5748   user    -    no   -
+
+3 sessions listed.
+PRETTY_NAME="Pardus GNU/Linux 25 (yirmibes)"
+NAME="Pardus GNU/Linux"
+VERSION_ID="25.2"
+VERSION="25.2 (yirmibes)"
+VERSION_CODENAME=yirmibes
+DEBIAN_VERSION_FULL=13.7
+ID=pardus
+HOME_URL="https://www.pardus.org.tr/"
+SUPPORT_URL="https://forum.pardus.org.tr/"
+BUG_REPORT_URL="https://talep.pardus.org.tr/"
+ID_LIKE=debian
+PARDUS_CODENAME=yirmibes
+GNOME Shell 48.7

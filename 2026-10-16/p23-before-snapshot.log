@@ -1,0 +1,21 @@
+Warning: Permanently added '192.168.122.154' (ED25519) to the list of known hosts.
+PRETTY_NAME="Pardus GNU/Linux 23 (yirmiuc)"
+NAME="Pardus GNU/Linux"
+VERSION_ID="23.5"
+VERSION="23.5 (yirmiuc)"
+VERSION_CODENAME=yirmiuc
+ID=pardus
+HOME_URL="https://www.pardus.org.tr/"
+SUPPORT_URL="https://forum.pardus.org.tr/"
+BUG_REPORT_URL="https://talep.pardus.org.tr/"
+ID_LIKE=debian
+PARDUS_CODENAME=yirmiuc
+gir1.2-gtk-3.0:amd64	3.24.38-2~deb12u3
+pardus-software	1.0.6
+python3	3.11.2-1+b1
+Reading package lists...
+Building dependency tree...
+Reading state information...
+d03094a237c73457f072512b924469e1adac584f580123d347986b86300a334c  /usr/share/pardus/pardus-software/src/MainWindow.py
+be81725f67d504f550131e190fe34d3d81f92f86130525c60f3383ac44891230  /usr/share/pardus/pardus-software/ui/MainWindow.glade
+Connection to 192.168.122.154 closed by remote host.

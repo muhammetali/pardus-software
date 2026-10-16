@@ -1,0 +1,114 @@
+{
+  "mode": "offline",
+  "remove_fixture": true,
+  "steps": [
+    {
+      "step": "startup",
+      "seconds": 11.38,
+      "connected": false,
+      "home": "noserver",
+      "page": "discover",
+      "installed_count": 90,
+      "search_sensitive": false,
+      "broken": false
+    },
+    {
+      "step": "offline_button_target",
+      "seconds": 11.48,
+      "x": 565,
+      "y": 463,
+      "width": 149,
+      "height": 34,
+      "focused": true
+    },
+    {
+      "step": "offline_button_clicked",
+      "seconds": 11.67
+    },
+    {
+      "step": "installed",
+      "seconds": 12.99,
+      "count": 90,
+      "back_sensitive": true
+    },
+    {
+      "step": "settings",
+      "seconds": 14.33,
+      "page": "settings",
+      "search_sensitive": false
+    },
+    {
+      "step": "settings_back",
+      "seconds": 16.37,
+      "page": "installed"
+    },
+    {
+      "step": "search",
+      "seconds": 17.4,
+      "query": "mousepad",
+      "visible": 2,
+      "total": 90
+    },
+    {
+      "step": "details",
+      "seconds": 22.38,
+      "page": "appdetails",
+      "search_sensitive": false
+    },
+    {
+      "step": "details_back",
+      "seconds": 23.68,
+      "page": "installed"
+    },
+    {
+      "step": "launch",
+      "seconds": 25.07,
+      "application": "mousepad",
+      "running": true
+    },
+    {
+      "step": "remove_selected",
+      "seconds": 26.47,
+      "package": "pardus-offline-removal-test",
+      "installed_count": 90
+    },
+    {
+      "step": "remove_confirm",
+      "seconds": 32.46,
+      "packages": [
+        "pardus-offline-removal-test"
+      ]
+    },
+    {
+      "step": "removed",
+      "seconds": 57.73,
+      "package": "pardus-offline-removal-test",
+      "dpkg_query_exit": 1,
+      "desktop_file_exists": false,
+      "installed_count": 89,
+      "broken_count": 0,
+      "network_connected": false
+    },
+    {
+      "step": "back",
+      "seconds": 61.41,
+      "home": "noserver",
+      "search_sensitive": false
+    },
+    {
+      "step": "retry",
+      "seconds": 91.6,
+      "connected": true,
+      "home": "pardushome",
+      "page": "discover",
+      "installed_count": 89,
+      "search_sensitive": true,
+      "broken": false
+    }
+  ],
+  "desktop": "XFCE",
+  "session_type": "x11",
+  "os_release": "PRETTY_NAME=\"Pardus GNU/Linux 23 (yirmiuc)\"\nNAME=\"Pardus GNU/Linux\"\nVERSION_ID=\"23.5\"\nVERSION=\"23.5 (yirmiuc)\"\nVERSION_CODENAME=yirmiuc\nID=pardus\nHOME_URL=\"https://www.pardus.org.tr/\"\nSUPPORT_URL=\"https://forum.pardus.org.tr/\"\nBUG_REPORT_URL=\"https://talep.pardus.org.tr/\"\nID_LIKE=debian\nPARDUS_CODENAME=yirmiuc\n",
+  "status": "passed",
+  "error": null
+}

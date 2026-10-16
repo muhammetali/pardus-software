@@ -1,5 +1,8 @@
 # PR #63 doğrulama kayıtları
 
+**16 Ekim ek doğrulaması:** [Pardus 23, GNOME ve gerçek kaldırma kayıtları](2026-10-16/README.md).
+Aşağıdaki kayıt 15 Ekim koşullarını anlatır; güncel kapsam ve gözlemler ek kayıttadır.
+
 15 Ekim 2026 · Pardus 25 XFCE, KVM'de diske kurulu sistem (23'ten yükseltilmiş).
 Depo paketi: `pardus-software 1.0.6`. Taban: `d99c804`.
 Test edilen PR: `84844cbf566cf339c9784cf61850e62bd0303c34`.
@@ -76,7 +79,8 @@ Yerel uygulama listesi ve arama:
 
 ## Sınırlar
 
-GNOME, Pardus 23 paket hattı ve gerçek uygulama kaldırma işlemi denenmedi.
+15 Ekim koşusunda GNOME, Pardus 23 paket hattı ve gerçek uygulama kaldırma işlemi denenmemişti.
+Bu kontroller [16 Ekim kaydında](2026-10-16/README.md) tamamlandı.
 Ağ zaman aşımı ve katalog önbelleğini çevrimdışı kullanma davranışı değiştirilmedi.
 Boş önbellekte sunucudan gelen liste başlığı simgesi bulunamıyor; bu durum görüntülerde
 görünüyor. Yerel uygulama simgeleri ve liste işlemleri çalışıyor.

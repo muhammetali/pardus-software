@@ -1,0 +1,267 @@
+Warning: Permanently added '192.168.122.154' (ED25519) to the list of known hosts.
+dpkg-deb: building package 'pardus-offline-removal-test' in '/tmp/offline-removal-fixture-7zlf1iez/pardus-offline-removal-test.deb'.
+Selecting previously unselected package pardus-offline-removal-test.
+(Reading database ... 158592 files and directories currently installed.)
+Preparing to unpack .../pardus-offline-removal-test.deb ...
+Unpacking pardus-offline-removal-test (1.0) ...
+Setting up pardus-offline-removal-test (1.0) ...
+Processing triggers for desktop-file-utils (0.26-1) ...
+Processing triggers for mailcap (3.70+nmu1) ...
+pardus-offline-removal-test	1.0
+{
+  "DISPLAY": ":0",
+  "XAUTHORITY": "/home/pardus/.Xauthority",
+  "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+  "XDG_CURRENT_DESKTOP": "XFCE",
+  "XDG_SESSION_TYPE": "x11",
+  "DESKTOP_SESSION": "lightdm-xsession",
+  "XDG_RUNTIME_DIR": "/run/user/1000"
+}
+[2026-10-16 17:31:28] [MainWindow] [INFO] Logger setup completed.
+[2026-10-16 17:31:28] [MainWindow] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:31:29] [MainWindow] [INFO] user_locale: tr
+[2026-10-16 17:31:29] [MainWindow] [INFO] monitor from get_primary_monitor
+[2026-10-16 17:31:29] [MainWindow] [INFO] window w:1028 h:661 | monitor w:1280 h:800 s:1
+[2026-10-16 17:31:29] [MainWindow] [INFO] decoration_layout: menu:minimize,maximize,close
+[2026-10-16 17:31:29] [MainWindow] [INFO] new_decoration_layout: menu:minimize,maximize,close
+[2026-10-16 17:31:29] [MainWindow] [INFO] theme_name: pardus-xfce
+[2026-10-16 17:31:29] [AppImage] [INFO] Logger setup completed.
+[2026-10-16 17:31:29] [AppImage] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:31:29] [AppDetail] [INFO] Logger setup completed.
+[2026-10-16 17:31:29] [AppDetail] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:31:29] [AppRequest] [INFO] Logger setup completed.
+[2026-10-16 17:31:29] [AppRequest] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:31:29] [GnomeComment] [INFO] Logger setup completed.
+[2026-10-16 17:31:29] [GnomeComment] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:31:29] [PardusComment] [INFO] Logger setup completed.
+[2026-10-16 17:31:29] [PardusComment] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:31:29] [Utils] [INFO] Logger setup completed.
+[2026-10-16 17:31:29] [Utils] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:31:30] [UserSettings] [INFO] Logger setup completed.
+[2026-10-16 17:31:30] [UserSettings] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:31:30] [UserSettings] [INFO] in readconfig
+[2026-10-16 17:31:30] [MainWindow] [INFO] config_animations: True
+[2026-10-16 17:31:30] [MainWindow] [INFO] config_only_available: True
+[2026-10-16 17:31:30] [MainWindow] [INFO] config_gnome_comments: True
+[2026-10-16 17:31:30] [MainWindow] [INFO] config_dark_theme: False
+[2026-10-16 17:31:30] [MainWindow] [INFO] config_auto_apt_update: True
+[2026-10-16 17:31:30] [MainWindow] [INFO] config_last_apt_update: 0
+[2026-10-16 17:31:30] [MainWindow] [INFO] config_force_apt_update_time: 0
+[2026-10-16 17:31:30] [MainWindow] [INFO] Pardus GNU/Linux, 23.5, yirmiuc, (XFCE 4.18, X11)
+[2026-10-16 17:31:30] [MainWindow] [INFO] start done
+[2026-10-16 17:31:30] [Package] [INFO] Logger setup completed.
+[2026-10-16 17:31:30] [Package] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:31:40] [MainWindow] [INFO] package completed
+[2026-10-16 17:31:40] [Server] [INFO] Logger setup completed.
+[2026-10-16 17:31:40] [Server] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:31:40] [MainWindow] [INFO] server url getted from new type config
+[2026-10-16 17:31:40] [MainWindow] [INFO] server url: https://apps.pardus.org.tr
+[2026-10-16 17:31:40] [MainWindow] [INFO] repo permission: 1
+[2026-10-16 17:31:40] [MainWindow] [INFO] myapps permission: 1
+[2026-10-16 17:31:40] [MainWindow] [INFO] Controlling server hashes
+[2026-10-16 17:31:40] [MainWindow] [INFO] server func done
+[2026-10-16 17:31:40] [Server] [WARNING] _open_hashes_stream Error: g-io-error-quark, apps.pardus.org.tr bağlantısı gerçekleştirilemedi:  Bağlantı reddedildi
+[2026-10-16 17:31:40] [Server] [ERROR] g-io-error-quark: apps.pardus.org.tr bağlantısı gerçekleştirilemedi:  Bağlantı reddedildi (39)
+Traceback (most recent call last):
+  File "/usr/share/pardus/pardus-software/src/Server.py", line 93, in _open_hashes_stream
+    success, data, etag = file.load_contents_finish(result)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: apps.pardus.org.tr bağlantısı gerçekleştirilemedi:  Bağlantı reddedildi (39)
+[2026-10-16 17:31:40] [MainWindow] [INFO] ServerHashesCB : False
+[2026-10-16 17:31:40] [MainWindow] [INFO] in set_initial_home
+[2026-10-16 17:31:40] [MainWindow] [INFO] set_initial_home done.
+[2026-10-16 17:31:40] [MainWindow] [INFO] in set_applications
+[2026-10-16 17:31:40] [MainWindow] [INFO] set_applications done
+[2026-10-16 17:31:41] [MainWindow] [INFO] on_myapps_worker_done
+EVIDENCE {"step": "startup", "seconds": 14.55, "connected": false, "home": "noserver", "page": "discover", "installed_count": 90, "search_sensitive": false, "broken": false}
+EVIDENCE {"step": "offline_button_target", "seconds": 14.66, "x": 565, "y": 463, "width": 149, "height": 34, "focused": true}
+EVIDENCE {"step": "offline_button_clicked", "seconds": 14.85}
+EVIDENCE {"step": "installed", "seconds": 15.96, "count": 90, "back_sensitive": true}
+[2026-10-16 17:31:44] [UserSettings] [INFO] in readconfig
+[2026-10-16 17:31:44] [MainWindow] [INFO] /home/pardus/.cache/pardus/pardus-software/ : 4408 bytes
+EVIDENCE {"step": "settings", "seconds": 17.4, "page": "settings", "search_sensitive": false}
+EVIDENCE {"step": "settings_back", "seconds": 19.16, "page": "installed"}
+[2026-10-16 17:31:47] [MainWindow] [INFO] installed_apps searching for: mousepad
+EVIDENCE {"step": "search", "seconds": 20.42, "query": "mousepad", "visible": 2, "total": 90}
+[2026-10-16 17:31:48] [MainWindow] [INFO] on_myapp_listbox_row_activated: {'id': 'org.xfce.mousepad.desktop', 'name': 'Mousepad', 'icon_name': 'org.xfce.mousepad', 'description': 'Basit Metin Düzenleyici', 'filename': '/usr/share/applications/org.xfce.mousepad.desktop', 'keywords': '', 'executable': 'mousepad', 'disk_usage': 0, 'package_name': '-'}
+[2026-10-16 17:31:49] [MainWindow] [INFO] app_name: mousepad
+[2026-10-16 17:31:49] [MainWindow] [INFO] details: {'id': 'org.xfce.mousepad.desktop', 'name': 'Mousepad', 'icon_name': 'org.xfce.mousepad', 'description': 'Basit Metin Düzenleyici', 'filename': '/usr/share/applications/org.xfce.mousepad.desktop', 'keywords': '', 'executable': 'mousepad', 'disk_usage': 0, 'package_name': '-'}
+[2026-10-16 17:31:49] [MainWindow] [INFO] build_install_command: app_name=mousepad
+[2026-10-16 17:31:49] [MainWindow] [INFO] install_recommends=True
+[2026-10-16 17:31:49] [MainWindow] [INFO] raw command data: {}
+[2026-10-16 17:31:49] [MainWindow] [INFO] localized raw_cmd=''
+[2026-10-16 17:31:49] [MainWindow] [INFO] raw_cmd empty, using fallback app_name
+EVIDENCE {"step": "details", "seconds": 25.03, "page": "appdetails", "search_sensitive": false}
+EVIDENCE {"step": "details_back", "seconds": 26.38, "page": "installed"}
+[2026-10-16 17:31:54] [Package] [INFO] _required_changes_internal: {'download_size': 0, 'freed_size': 2151424, 'install_size': 0, 'to_install': [], 'to_delete': ['pardus-xfce-desktop', 'xfce4-goodies', 'mousepad'], 'broken': [], 'package_broken': False}
+[2026-10-16 17:31:54] [MainWindow] [INFO] Opening org.xfce.mousepad.desktop
+[2026-10-16 17:31:54] [MainWindow] [INFO] app_detail_requireds_worker_done
+EVIDENCE {"step": "launch", "seconds": 27.91, "application": "mousepad", "running": true}
+[2026-10-16 17:31:56] [MainWindow] [INFO] installed_apps searching for: offline removal test
+EVIDENCE {"step": "remove_selected", "seconds": 29.14, "package": "pardus-offline-removal-test", "installed_count": 90}
+[2026-10-16 17:31:57] [MainWindow] [INFO] remove_from_myapps_popup {'id': 'pardus-offline-removal-test.desktop', 'name': 'Offline Removal Test', 'icon_name': 'application-x-executable', 'description': 'Disposable GUI removal test', 'filename': '/usr/share/applications/pardus-offline-removal-test.desktop', 'keywords': '', 'executable': '/usr/bin/true', 'disk_usage': 0, 'package_name': '-'}
+[2026-10-16 17:31:57] [Package] [INFO] myapps_remove_details: /usr/share/applications/pardus-offline-removal-test.desktop
+[2026-10-16 17:32:00] [Package] [INFO] _required_changes_internal: {'download_size': 0, 'freed_size': 0, 'install_size': 0, 'to_install': [], 'to_delete': ['pardus-offline-removal-test'], 'broken': [], 'package_broken': False}
+[2026-10-16 17:32:00] [MainWindow] [INFO] {'download_size': 0, 'freed_size': 0, 'install_size': 0, 'to_install': [], 'to_delete': ['pardus-offline-removal-test'], 'broken': [], 'package_broken': False}
+EVIDENCE {"step": "remove_confirm", "seconds": 34.86, "packages": ["pardus-offline-removal-test"]}
+[2026-10-16 17:32:02] [MainWindow] [INFO] not important package
+[2026-10-16 17:32:02] [MainWindow] [INFO] started pid : 2791 with command: ['/usr/bin/pkexec', '/usr/share/pardus/pardus-software/src/Actions.py', 'remove', 'pardus-offline-removal-test']
+[2026-10-16 17:32:02] [MainWindow] [INFO] action_package app: pardus-offline-removal-test, command: pardus-offline-removal-test, desktop_id: /usr/share/applications/pardus-offline-removal-test.desktop, upgrade: False
+[2026-10-16 17:32:03] [MainWindow] [INFO] 
+
+[2026-10-16 17:32:03] [MainWindow] [INFO] WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+[2026-10-16 17:32:03] [MainWindow] [INFO] 
+
+[2026-10-16 17:32:04] [MainWindow] [INFO] Paket listeleri okunuyor...
+
+[2026-10-16 17:32:04] [MainWindow] [INFO] Queue animation started
+[2026-10-16 17:32:06] [MainWindow] [INFO] Bağımlılık ağacı oluşturuluyor...
+
+[2026-10-16 17:32:06] [MainWindow] [INFO] Durum bilgisi okunuyor...
+
+[2026-10-16 17:32:10] [MainWindow] [INFO] Aşağıdaki paketler otomatik olarak kurulmuş ve artık bu paketlere gerek duyulmuyor:
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   fonts-lyx isympy-common isympy3 javascript-common libboost-dev
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   libboost1.74-dev libexpat1-dev libjs-jquery libjs-jquery-ui libjs-sphinxdoc
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   libjs-underscore liblbfgsb0 libopenblas-dev libopenblas-pthread-dev
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   libopenblas0 libpython3-all-dev libpython3-dev libpython3.11-dev
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   libqhull-r8.0 libwpe-1.0-1 libwpebackend-fdo-1.0-1 libxsimd-dev
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   python-matplotlib-data python3-all-dev python3-appdirs python3-attr
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   python3-beniget python3-bs4 python3-contourpy python3-cycler
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   python3-dateutil python3-decorator python3-dev python3-fonttools python3-fs
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   python3-gast python3-html5lib python3-kiwisolver python3-lxml python3-lz4
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   python3-matplotlib python3-mpmath python3-numpy python3-packaging
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   python3-ply python3-pythran python3-scipy python3-soupsieve python3-sympy
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   python3-tz python3-ufolib2 python3-webencodings python3.11-dev rsync
+
+[2026-10-16 17:32:10] [MainWindow] [INFO]   unicode-data zlib1g-dev
+
+[2026-10-16 17:32:10] [MainWindow] [INFO] Bu paketleri kaldırmak için 'apt autoremove' komutunu kullanın.
+
+[2026-10-16 17:32:11] [MainWindow] [INFO] Aşağıdaki paketler KALDIRILACAK:
+
+[2026-10-16 17:32:11] [MainWindow] [INFO]   pardus-offline-removal-test*
+
+[2026-10-16 17:32:15] [MainWindow] [INFO] 0 paket yükseltilecek, 0 yeni paket kurulacak, 1 paket kaldırılacak ve 1 paket yükseltilmeyecek.
+
+[2026-10-16 17:32:15] [MainWindow] [INFO] Bu işlem tamamlandıktan sonra 0 B ek disk alanı kullanılacak.
+
+[2026-10-16 17:32:15] [MainWindow] [INFO] pmstatus:dpkg-exec:0.0000:dpkg çalıştırılıyor
+
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 5%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 10%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 15%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 20%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 25%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 30%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 35%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 40%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 45%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 50%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 55%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 60%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 65%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 70%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 75%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 80%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 85%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 90%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 95%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 100%
+[2026-10-16 17:32:17] [MainWindow] [INFO] (Veritabanı okunuyor ... 158593 dosya veya dizin kurulu durumda.)
+
+[2026-10-16 17:32:17] [MainWindow] [INFO] Kaldırılıyor: pardus-offline-removal-test (1.0) ...
+
+[2026-10-16 17:32:17] [MainWindow] [INFO] pmstatus:pardus-offline-removal-test:0.0000:pardus-offline-removal-test (amd64) paketinin kaldırılmasına hazırlanılıyor
+
+[2026-10-16 17:32:17] [MainWindow] [INFO] pmstatus:pardus-offline-removal-test:20.0000:pardus-offline-removal-test (amd64) kaldırılıyor
+
+[2026-10-16 17:32:18] [MainWindow] [INFO] pmstatus:pardus-offline-removal-test:40.0000:pardus-offline-removal-test (amd64) kaldırılıyor
+
+[2026-10-16 17:32:19] [MainWindow] [INFO] pmstatus:pardus-offline-removal-test:60.0000:pardus-offline-removal-test (amd64) tamamen kaldırılıyor
+
+[2026-10-16 17:32:19] [MainWindow] [INFO] pmstatus:pardus-offline-removal-test:80.0000:pardus-offline-removal-test (amd64) tamamen kaldırıldı
+
+[2026-10-16 17:32:19] [MainWindow] [INFO] pmstatus:dpkg-exec:80.0000:dpkg çalıştırılıyor
+
+[2026-10-16 17:32:19] [MainWindow] [INFO] Tetikleyiciler işleniyor: mailcap (3.70+nmu1) ...
+
+[2026-10-16 17:32:20] [MainWindow] [INFO] Tetikleyiciler işleniyor: desktop-file-utils (0.26-1) ...
+
+[2026-10-16 17:32:20] [MainWindow] [INFO] pmstatus:dpkg-exec:80.0000:dpkg çalıştırılıyor
+
+[2026-10-16 17:32:28] [Package] [INFO] control_package_cache: pardus-offline-removal-test not in cache.
+[2026-10-16 17:32:28] [MainWindow] [INFO] Cache Status: True, Package Cache Status: False
+[2026-10-16 17:32:28] [Package] [INFO] control_package_cache: pardus-offline-removal-test not in cache.
+[2026-10-16 17:32:28] [MainWindow] [INFO] in control_myapps
+[2026-10-16 17:32:28] [MainWindow] [INFO] /usr/share/applications/pardus-offline-removal-test.desktop removing from myapps
+[2026-10-16 17:32:28] [MainWindow] [INFO] in pop_myapp popdown
+[2026-10-16 17:32:28] [MainWindow] [INFO] inprogress_app_name: pardus-offline-removal-test, app_name: pardus-offline-removal-test
+[2026-10-16 17:32:28] [MainWindow] [INFO] Exit Code: 0
+[2026-10-16 17:32:28] [MainWindow] [INFO] queue: [{'name': 'pardus-offline-removal-test', 'command': 'pardus-offline-removal-test', 'desktop_id': '/usr/share/applications/pardus-offline-removal-test.desktop', 'upgrade': False}]
+[2026-10-16 17:32:28] [MainWindow] [INFO] queue_pop: {'name': 'pardus-offline-removal-test', 'command': 'pardus-offline-removal-test', 'desktop_id': '/usr/share/applications/pardus-offline-removal-test.desktop', 'upgrade': False}
+[2026-10-16 17:32:28] [MainWindow] [INFO] queue: []
+EVIDENCE {"step": "removed", "seconds": 60.48, "package": "pardus-offline-removal-test", "dpkg_query_exit": 1, "desktop_file_exists": false, "installed_count": 89, "broken_count": 0, "network_connected": false}
+[2026-10-16 17:32:29] [MainWindow] [INFO] installed_apps searching for: 
+EVIDENCE {"step": "back", "seconds": 64.22, "home": "noserver", "search_sensitive": false}
+[2026-10-16 17:32:32] [Package] [INFO] Logger setup completed.
+[2026-10-16 17:32:32] [Package] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:32:41] [MainWindow] [INFO] package completed
+[2026-10-16 17:32:41] [Server] [INFO] Logger setup completed.
+[2026-10-16 17:32:41] [Server] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:32:41] [MainWindow] [INFO] server url getted from new type config
+[2026-10-16 17:32:41] [MainWindow] [INFO] server url: https://apps.pardus.org.tr
+[2026-10-16 17:32:41] [MainWindow] [INFO] repo permission: 1
+[2026-10-16 17:32:41] [MainWindow] [INFO] myapps permission: 1
+[2026-10-16 17:32:41] [MainWindow] [INFO] Controlling server hashes
+[2026-10-16 17:32:41] [MainWindow] [INFO] server func done
+[2026-10-16 17:32:41] [MainWindow] [INFO] ServerHashesCB : True
+[2026-10-16 17:32:41] [MainWindow] [INFO] download_apps: True
+[2026-10-16 17:32:41] [MainWindow] [INFO] download_icons: True
+[2026-10-16 17:32:41] [MainWindow] [INFO] download_images: True
+[2026-10-16 17:32:41] [MainWindow] [INFO] download_cats: True
+[2026-10-16 17:32:41] [MainWindow] [INFO] download_home: True
+[2026-10-16 17:32:41] [MainWindow] [INFO] Getting application metadata from server
+[2026-10-16 17:32:41] [MainWindow] [INFO] Getting applications from server
+[2026-10-16 17:32:41] [MainWindow] [INFO] Getting icons from server
+[2026-10-16 17:32:41] [MainWindow] [INFO] Getting images from server
+[2026-10-16 17:32:41] [MainWindow] [INFO] Getting categories from server
+[2026-10-16 17:32:41] [MainWindow] [INFO] Getting homepage from server
+[2026-10-16 17:32:42] [MainWindow] [INFO] ServerFilesCB apps : True
+[2026-10-16 17:32:42] [Server] [INFO] filter='data' not supported, using secure fallback method
+[2026-10-16 17:32:42] [MainWindow] [INFO] ServerFilesCB images : True
+[2026-10-16 17:32:42] [Server] [INFO] filter='data' not supported, using secure fallback method
+[2026-10-16 17:32:42] [MainWindow] [INFO] ServerFilesCB cats : True
+[2026-10-16 17:32:42] [Server] [INFO] filter='data' not supported, using secure fallback method
+[2026-10-16 17:32:42] [MainWindow] [INFO] ServerFilesCB icons : True
+[2026-10-16 17:32:44] [MainWindow] [INFO] ServerFilesCB home : True
+[2026-10-16 17:32:44] [MainWindow] [INFO] Preparing the application interface
+[2026-10-16 17:32:45] [MainWindow] [INFO] in set_initial_home
+[2026-10-16 17:32:45] [MainWindow] [INFO] set_initial_home done.
+[2026-10-16 17:32:45] [MainWindow] [INFO] in set_applications
+[2026-10-16 17:32:45] [MainWindow] [INFO] set_applications done
+[2026-10-16 17:32:45] [MainWindow] [INFO] Upgradable apps: 
+[2026-10-16 17:32:45] [MainWindow] [INFO] in set_upgradables
+[2026-10-16 17:32:45] [MainWindow] [INFO] set_upgradables done
+[2026-10-16 17:32:45] [MainWindow] [INFO] in set_most_apps
+[2026-10-16 17:32:46] [MainWindow] [INFO] in set_trend_apps
+[2026-10-16 17:32:46] [MainWindow] [INFO] in set_editor_apps
+[2026-10-16 17:32:46] [MainWindow] [INFO] in set_mostdown_apps
+[2026-10-16 17:32:46] [MainWindow] [INFO] in set_recent_apps
+[2026-10-16 17:32:46] [MainWindow] [INFO] Error creating textual authentication agent: Error opening current controlling terminal for the process (`/dev/tty'): No such device or address
+
+[2026-10-16 17:32:53] [MainWindow] [INFO] on_myapps_worker_done
+EVIDENCE {"step": "retry", "seconds": 87.32, "connected": true, "home": "pardushome", "page": "discover", "installed_count": 89, "search_sensitive": true, "broken": false}

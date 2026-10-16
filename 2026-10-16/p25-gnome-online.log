@@ -1,0 +1,109 @@
+Warning: Permanently added '192.168.122.161' (ED25519) to the list of known hosts.
+{
+  "DISPLAY": ":0",
+  "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+  "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+  "XDG_CURRENT_DESKTOP": "GNOME",
+  "XDG_SESSION_TYPE": "x11",
+  "DESKTOP_SESSION": "gnome-xorg",
+  "XDG_RUNTIME_DIR": "/run/user/1000"
+}
+[2026-10-16 17:24:54] [MainWindow] [INFO] Logger setup completed.
+[2026-10-16 17:24:54] [MainWindow] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:24:55] [MainWindow] [INFO] user_locale: tr
+[2026-10-16 17:24:55] [MainWindow] [INFO] monitor from get_primary_monitor
+[2026-10-16 17:24:55] [MainWindow] [INFO] window w:1028 h:661 | monitor w:1280 h:800 s:1
+[2026-10-16 17:24:55] [MainWindow] [INFO] decoration_layout: icon:minimize,maximize,close
+[2026-10-16 17:24:55] [MainWindow] [INFO] new_decoration_layout: :minimize,maximize,close
+[2026-10-16 17:24:55] [MainWindow] [INFO] theme_name: pardus-xfce
+[2026-10-16 17:24:55] [AppImage] [INFO] Logger setup completed.
+[2026-10-16 17:24:55] [AppImage] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:24:55] [AppDetail] [INFO] Logger setup completed.
+[2026-10-16 17:24:55] [AppDetail] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:24:55] [AppRequest] [INFO] Logger setup completed.
+[2026-10-16 17:24:55] [AppRequest] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:24:55] [GnomeComment] [INFO] Logger setup completed.
+[2026-10-16 17:24:55] [GnomeComment] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:24:55] [PardusComment] [INFO] Logger setup completed.
+[2026-10-16 17:24:55] [PardusComment] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:24:55] [Utils] [INFO] Logger setup completed.
+[2026-10-16 17:24:55] [Utils] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:24:55] [UserSettings] [INFO] Logger setup completed.
+[2026-10-16 17:24:55] [UserSettings] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:24:55] [UserSettings] [INFO] in readconfig
+[2026-10-16 17:24:55] [MainWindow] [INFO] config_animations: True
+[2026-10-16 17:24:55] [MainWindow] [INFO] config_only_available: True
+[2026-10-16 17:24:55] [MainWindow] [INFO] config_gnome_comments: True
+[2026-10-16 17:24:55] [MainWindow] [INFO] config_dark_theme: False
+[2026-10-16 17:24:55] [MainWindow] [INFO] config_auto_apt_update: True
+[2026-10-16 17:24:55] [MainWindow] [INFO] config_last_apt_update: 0
+[2026-10-16 17:24:55] [MainWindow] [INFO] config_force_apt_update_time: 0
+[2026-10-16 17:24:55] [MainWindow] [INFO] Pardus GNU/Linux, 25.2, yirmibes, (GNOME 48.7, X11)
+[2026-10-16 17:24:55] [Package] [INFO] Logger setup completed.
+[2026-10-16 17:24:55] [MainWindow] [INFO] start done
+[2026-10-16 17:24:55] [Package] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:25:07] [MainWindow] [INFO] package completed
+[2026-10-16 17:25:07] [Server] [INFO] Logger setup completed.
+[2026-10-16 17:25:07] [Server] [INFO] /usr/share/pardus/pardus-software/src/Main.py is starting.
+[2026-10-16 17:25:07] [MainWindow] [INFO] server url getted from new type config
+[2026-10-16 17:25:07] [MainWindow] [INFO] server url: https://apps.pardus.org.tr
+[2026-10-16 17:25:07] [MainWindow] [INFO] repo permission: 1
+[2026-10-16 17:25:07] [MainWindow] [INFO] myapps permission: 1
+[2026-10-16 17:25:07] [MainWindow] [INFO] Controlling server hashes
+[2026-10-16 17:25:07] [MainWindow] [INFO] server func done
+[2026-10-16 17:25:08] [MainWindow] [INFO] ServerHashesCB : True
+[2026-10-16 17:25:08] [MainWindow] [INFO] download_apps: True
+[2026-10-16 17:25:08] [MainWindow] [INFO] download_icons: True
+[2026-10-16 17:25:08] [MainWindow] [INFO] download_images: True
+[2026-10-16 17:25:08] [MainWindow] [INFO] download_cats: True
+[2026-10-16 17:25:08] [MainWindow] [INFO] download_home: True
+[2026-10-16 17:25:08] [MainWindow] [INFO] Getting application metadata from server
+[2026-10-16 17:25:08] [MainWindow] [INFO] Getting applications from server
+[2026-10-16 17:25:08] [MainWindow] [INFO] Getting icons from server
+[2026-10-16 17:25:08] [MainWindow] [INFO] Getting images from server
+[2026-10-16 17:25:08] [MainWindow] [INFO] Getting categories from server
+[2026-10-16 17:25:08] [MainWindow] [INFO] Getting homepage from server
+[2026-10-16 17:25:09] [MainWindow] [INFO] ServerFilesCB apps : True
+[2026-10-16 17:25:09] [MainWindow] [INFO] ServerFilesCB images : True
+[2026-10-16 17:25:09] [MainWindow] [INFO] ServerFilesCB cats : True
+[2026-10-16 17:25:09] [MainWindow] [INFO] ServerFilesCB icons : True
+[2026-10-16 17:25:11] [MainWindow] [INFO] ServerFilesCB home : True
+[2026-10-16 17:25:11] [MainWindow] [INFO] Preparing the application interface
+[2026-10-16 17:25:11] [MainWindow] [INFO] in set_initial_home
+[2026-10-16 17:25:11] [MainWindow] [INFO] set_initial_home done.
+[2026-10-16 17:25:12] [MainWindow] [INFO] in set_applications
+[2026-10-16 17:25:12] [MainWindow] [INFO] set_applications done
+[2026-10-16 17:25:12] [MainWindow] [INFO] Upgradable apps: pardus-update
+[2026-10-16 17:25:12] [MainWindow] [INFO] in set_upgradables
+[2026-10-16 17:25:12] [MainWindow] [INFO] set_upgradables done
+[2026-10-16 17:25:12] [MainWindow] [INFO] in set_most_apps
+[2026-10-16 17:25:12] [Package] [INFO] user version: 1.0.6 > server version: 1.0.5
+[2026-10-16 17:25:12] [MainWindow] [INFO] in set_trend_apps
+[2026-10-16 17:25:12] [MainWindow] [INFO] in set_editor_apps
+[2026-10-16 17:25:12] [MainWindow] [INFO] in set_mostdown_apps
+[2026-10-16 17:25:12] [MainWindow] [INFO] in set_recent_apps
+[2026-10-16 17:25:13] [MainWindow] [INFO] Error creating textual authentication agent: Error opening current controlling terminal for the process (`/dev/tty'): No such device or address
+
+[2026-10-16 17:25:21] [MainWindow] [INFO] on_myapps_worker_done
+EVIDENCE {"step": "startup", "seconds": 30.05, "connected": true, "home": "pardushome", "page": "discover", "installed_count": 99, "search_sensitive": true, "broken": false}
+EVIDENCE {"step": "installed", "seconds": 31.31, "count": 99, "back_sensitive": true}
+[2026-10-16 17:25:25] [UserSettings] [INFO] in readconfig
+[2026-10-16 17:25:25] [MainWindow] [INFO] /home/pardus/.cache/pardus/pardus-software/ : 5011018 bytes
+EVIDENCE {"step": "settings", "seconds": 32.7, "page": "settings", "search_sensitive": true}
+EVIDENCE {"step": "settings_back", "seconds": 33.96, "page": "installed"}
+[2026-10-16 17:25:27] [MainWindow] [INFO] installed_apps searching for: mousepad
+EVIDENCE {"step": "search", "seconds": 35.22, "query": "mousepad", "visible": 2, "total": 99}
+[2026-10-16 17:25:29] [MainWindow] [INFO] on_myapp_listbox_row_activated: {'id': 'org.xfce.mousepad.desktop', 'name': 'Mousepad', 'icon_name': 'org.xfce.mousepad', 'description': 'Basit Metin Düzenleyici', 'filename': '/usr/share/applications/org.xfce.mousepad.desktop', 'keywords': 'Edit Text Simple XFCE Lightweight Fast', 'executable': 'mousepad', 'disk_usage': 0, 'package_name': '-'}
+[2026-10-16 17:25:30] [MainWindow] [INFO] app_name: mousepad
+[2026-10-16 17:25:30] [MainWindow] [INFO] details: {'id': 'org.xfce.mousepad.desktop', 'name': 'Mousepad', 'icon_name': 'org.xfce.mousepad', 'description': 'Basit Metin Düzenleyici', 'filename': '/usr/share/applications/org.xfce.mousepad.desktop', 'keywords': 'Edit Text Simple XFCE Lightweight Fast', 'executable': 'mousepad', 'disk_usage': 0, 'package_name': '-'}
+[2026-10-16 17:25:30] [MainWindow] [INFO] build_install_command: app_name=mousepad
+[2026-10-16 17:25:30] [MainWindow] [INFO] install_recommends=True
+[2026-10-16 17:25:30] [MainWindow] [INFO] raw command data: {}
+[2026-10-16 17:25:30] [MainWindow] [INFO] localized raw_cmd=''
+[2026-10-16 17:25:30] [MainWindow] [INFO] raw_cmd empty, using fallback app_name
+EVIDENCE {"step": "details", "seconds": 41.33, "page": "appdetails", "search_sensitive": true}
+EVIDENCE {"step": "details_back", "seconds": 42.44, "page": "installed"}
+[2026-10-16 17:25:36] [MainWindow] [INFO] Opening org.xfce.mousepad.desktop
+EVIDENCE {"step": "launch", "seconds": 44.37, "application": "mousepad", "running": true}
+[2026-10-16 17:25:39] [Package] [INFO] _required_changes_internal: {'download_size': 0, 'freed_size': 1978368, 'install_size': 0, 'to_install': [], 'to_delete': ['pardus-xfce-desktop', 'xfce4-goodies', 'mousepad'], 'broken': [], 'package_broken': False}
+EVIDENCE {"step": "back", "seconds": 46.25, "home": "pardushome", "search_sensitive": true}

@@ -1,0 +1,20 @@
+Warning: Permanently added '192.168.122.154' (ED25519) to the list of known hosts.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+{
+  "files": {
+    "src/MainWindow.py": {
+      "source": "268fb132577ddb21a724226cdc4b50b8db140d5f2111c4b4cdd321b9a8274805",
+      "installed": "268fb132577ddb21a724226cdc4b50b8db140d5f2111c4b4cdd321b9a8274805"
+    },
+    "ui/MainWindow.glade": {
+      "source": "9d9a12194daa92bd371c9aa95bc49553cb44402965f0214a5f06980ec2e45168",
+      "installed": "9d9a12194daa92bd371c9aa95bc49553cb44402965f0214a5f06980ec2e45168"
+    }
+  },
+  "broken_count": 0,
+  "fixture_absent": true,
+  "network_rule_absent": true,
+  "package_sha256": "31dfb6d13d90737997e36e5dc1cc8b7884c712205cd9779d4b6846a145eb644f"
+}
